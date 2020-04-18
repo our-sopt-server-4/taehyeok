@@ -26,5 +26,4 @@ var addBool = (x, y) =>
 {
     console.log(x + y);
 }
-
 addBool(true, false);
