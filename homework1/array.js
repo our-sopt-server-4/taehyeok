@@ -46,16 +46,9 @@ for (var item in server2)
 str2 += '"이(가) 들어있네요 ~';
 console.log(str2);
 
-
-
 //        ---
 
-
-
 let str3 = 'server3에는 "';
-
 server3.forEach( item => str3 += item + ', ');
-
 str3 += '"이(가) 들어있네요 ~';
-
 console.log(str3);
