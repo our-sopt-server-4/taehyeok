@@ -7,3 +7,9 @@ var group = [
     {name: "최해랑", age: 27},
     {name: "김동관", age: 26}
 ]
+
+// LEVEL 3. LEVEL2를 출력할 때 forEach를 사용해보기
+
+group.forEach(
+    item => console.log("이름은 " + item.name + "이고 나이는 " + item.age + "살 입니다.")
+);
